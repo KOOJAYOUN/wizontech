@@ -15,7 +15,7 @@
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1675941330,,"x"
+|2,0,1675941504,,"x"
 :q
 |2,0,1675409870,,"q"
 :q!
@@ -111,20 +111,20 @@
 |3,1,36,0,1,0,1675064929,"l"
 
 # File marks:
-'0  47  64  ~/dockerfile/index.html
-|4,48,47,64,1675941330,"~/dockerfile/index.html"
-'1  1  15  ~/github/wizontech/README.md
-|4,49,1,15,1675836202,"~/github/wizontech/README.md"
-'2  1  0  ~/web/web-deployment.yaml
-|4,50,1,0,1675409891,"~/web/web-deployment.yaml"
+'0  47  65  ~/dockerfile/index.html
+|4,48,47,65,1675941504,"~/dockerfile/index.html"
+'1  47  64  ~/dockerfile/index.html
+|4,49,47,64,1675941330,"~/dockerfile/index.html"
+'2  1  15  ~/github/wizontech/README.md
+|4,50,1,15,1675836202,"~/github/wizontech/README.md"
 '3  1  0  ~/web/web-deployment.yaml
-|4,51,1,0,1675409878,"~/web/web-deployment.yaml"
+|4,51,1,0,1675409891,"~/web/web-deployment.yaml"
 '4  1  0  ~/web/web-deployment.yaml
-|4,52,1,0,1675409870,"~/web/web-deployment.yaml"
+|4,52,1,0,1675409878,"~/web/web-deployment.yaml"
 '5  1  0  ~/web/web-deployment.yaml
 |4,53,1,0,1675409870,"~/web/web-deployment.yaml"
-'6  20  37  ~/web/web-deployment.yaml
-|4,54,20,37,1675409835,"~/web/web-deployment.yaml"
+'6  1  0  ~/web/web-deployment.yaml
+|4,54,1,0,1675409870,"~/web/web-deployment.yaml"
 '7  20  37  ~/web/web-deployment.yaml
 |4,55,20,37,1675409835,"~/web/web-deployment.yaml"
 '8  20  37  ~/web/web-deployment.yaml
@@ -133,6 +133,10 @@
 |4,57,20,37,1675409835,"~/web/web-deployment.yaml"
 
 # Jumplist (newest first):
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941504,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941494,"~/dockerfile/index.html"
 -'  47  64  ~/dockerfile/index.html
 |4,39,47,64,1675941330,"~/dockerfile/index.html"
 -'  1  0  ~/dockerfile/index.html
@@ -141,6 +145,18 @@
 |4,39,1,15,1675836202,"~/github/wizontech/README.md"
 -'  1  15  ~/github/wizontech/README.md
 |4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
 -'  1  0  ~/web/web-deployment.yaml
 |4,39,1,0,1675409891,"~/web/web-deployment.yaml"
 -'  1  0  ~/web/web-deployment.yaml
@@ -157,6 +173,22 @@
 |4,39,1,0,1675409878,"~/web/web-deployment.yaml"
 -'  1  0  ~/web/web-deployment.yaml
 |4,39,1,0,1675409878,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
 -'  1  0  ~/web/web-deployment.yaml
 |4,39,1,0,1675409870,"~/web/web-deployment.yaml"
 -'  1  0  ~/web/web-deployment.yaml
@@ -197,6 +229,38 @@
 |4,39,20,37,1675409835,"~/web/web-deployment.yaml"
 -'  20  37  ~/web/web-deployment.yaml
 |4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
+-'  20  37  ~/web/web-deployment.yaml
+|4,39,20,37,1675409835,"~/web/web-deployment.yaml"
 -'  1  0  ~/web/web-deployment.yaml
 |4,39,1,0,1675409805,"~/web/web-deployment.yaml"
 -'  1  0  ~/web/web-deployment.yaml
@@ -205,78 +269,14 @@
 |4,39,1,0,1675409805,"~/web/web-deployment.yaml"
 -'  1  0  ~/web/web-deployment.yaml
 |4,39,1,0,1675409805,"~/web/web-deployment.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
--'  1  0  /tmp/kubectl-edit-1780805078.yaml
-|4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409805,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409805,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409805,"~/web/web-deployment.yaml"
+-'  1  0  ~/web/web-deployment.yaml
+|4,39,1,0,1675409805,"~/web/web-deployment.yaml"
 -'  1  0  /tmp/kubectl-edit-1780805078.yaml
 |4,39,1,0,1675408207,"/tmp/kubectl-edit-1780805078.yaml"
 -'  1  0  /tmp/kubectl-edit-1780805078.yaml
@@ -337,12 +337,12 @@
 # History of marks within files (newest to oldest):
 
 > ~/dockerfile/index.html
-	*	1675941330	0
-	"	47	64
-	^	47	65
-	.	47	64
+	*	1675941503	0
+	"	47	65
+	^	47	66
+	.	47	65
 	+	53	6
-	+	47	64
+	+	47	65
 
 > ~/github/wizontech/README.md
 	*	1675836202	0
