@@ -1,0 +1,14 @@
+2023-01-30 04:32:34.911 [info] Extension host agent started.
+2023-01-30 04:32:34.971 [info] [127.0.0.1][dff5407f][ManagementConnection] New connection established.
+2023-01-30 04:32:34.973 [info] [127.0.0.1][ed29b0b0][ExtensionHostConnection] New connection established.
+2023-01-30 04:32:35.310 [info] [127.0.0.1][ed29b0b0][ExtensionHostConnection] <4033330> Launched Extension Host Process.
+2023-01-30 08:09:37.570 [info] Getting Manifest... ms-azuretools.vscode-docker
+2023-01-30 08:09:37.922 [info] Installing extension: ms-azuretools.vscode-docker
+2023-01-30 08:09:39.014 [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.a68318a9-b684-4372-ba66-4580433db044: ms-azuretools.vscode-docker
+2023-01-30 08:09:39.017 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-azuretools.vscode-docker-1.23.3
+2023-01-30 08:09:39.022 [info] Extracting completed. ms-azuretools.vscode-docker
+2023-01-30 08:09:39.025 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2023-01-30 08:20:02.182 [info] [127.0.0.1][dff5407f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-30 08:20:02.226 [info] [127.0.0.1][ed29b0b0][ExtensionHostConnection] <4033330> Extension Host Process exited with code: 0, signal: null.
+2023-01-30 08:20:02.226 [info] Last EH closed, waiting before shutting down
+2023-01-30 08:25:02.227 [info] Last EH closed, shutting down

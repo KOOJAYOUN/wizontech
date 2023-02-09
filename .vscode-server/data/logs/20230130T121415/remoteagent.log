@@ -1,0 +1,7 @@
+2023-01-30 12:14:15.871 [info] Extension host agent started.
+2023-01-30 12:14:15.960 [info] [127.0.0.1][595d8a0d][ManagementConnection] New connection established.
+2023-01-30 12:14:16.006 [info] [127.0.0.1][59196398][ExtensionHostConnection] New connection established.
+2023-01-30 12:14:16.222 [info] [127.0.0.1][59196398][ExtensionHostConnection] <139026> Launched Extension Host Process.
+2023-01-30 18:24:34.169 [info] [127.0.0.1][59196398][ExtensionHostConnection] <139026> Extension Host Process exited with code: 0, signal: null.
+2023-01-30 18:24:34.169 [info] Last EH closed, waiting before shutting down
+2023-01-30 18:29:34.170 [info] Last EH closed, shutting down

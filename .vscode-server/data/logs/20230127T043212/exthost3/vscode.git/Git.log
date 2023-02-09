@@ -1,0 +1,51 @@
+2023-01-27 05:53:48.789 [info] 로그 수준: Info
+2023-01-27 05:53:48.790 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2023-01-27 05:53:48.790 [info] "2.25.1"에서 git "git"을(를) 사용하는 중
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [5ms]
+2023-01-27 05:53:48.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.790 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.790 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-01-27 05:53:48.790 [info] Open repository: /home/ubuntu/kubespray
+2023-01-27 05:53:48.790 [info] > git config --get commit.template [3ms]
+2023-01-27 05:53:48.791 [info] > git rev-parse --show-toplevel [8ms]
+2023-01-27 05:53:48.791 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.791 [info] > git rev-parse --show-toplevel [7ms]
+2023-01-27 05:53:48.791 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2023-01-27 05:53:48.791 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-01-27 05:53:48.791 [info] Open repository: /home/ubuntu/nfs-subdir-external-provisioner
+2023-01-27 05:53:48.791 [info] > git rev-parse --show-toplevel [3ms]
+2023-01-27 05:53:48.791 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.791 [info] > git config --get commit.template [4ms]
+2023-01-27 05:53:48.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-01-27 05:53:48.791 [info] > git status -z -uall [31ms]
+2023-01-27 05:53:48.791 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2023-01-27 05:53:48.791 [info] > git config --get commit.template [1ms]
+2023-01-27 05:53:48.791 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2023-01-27 05:53:48.791 [info] > git status -z -uall [30ms]
+2023-01-27 05:53:48.791 [info] > git status -z -uall [148ms]
+2023-01-27 05:53:48.791 [info] > git config --get commit.template [4ms]
+2023-01-27 05:53:48.791 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-01-27 05:53:48.791 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2023-01-27 05:53:48.791 [info] > git status -z -uall [147ms]
+2023-01-27 05:53:48.791 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-27 05:53:48.791 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.791 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-27 05:53:48.791 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.791 [info] > git rev-parse --show-toplevel [0ms]
+2023-01-27 05:53:48.791 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-27 05:53:48.791 [info] > git check-ignore -v -z --stdin [5ms]
+2023-01-27 05:53:48.791 [info] > git check-ignore -v -z --stdin [2ms]

@@ -1,0 +1,92 @@
+2023-01-27 04:32:12.586 [info] Extension host agent started.
+2023-01-27 04:32:12.679 [info] [127.0.0.1][20c6750e][ManagementConnection] New connection established.
+2023-01-27 04:32:12.681 [info] [127.0.0.1][720b2cab][ExtensionHostConnection] New connection established.
+2023-01-27 04:32:12.939 [info] [127.0.0.1][720b2cab][ExtensionHostConnection] <1572684> Launched Extension Host Process.
+2023-01-27 04:32:18.842 [info] [127.0.0.1][20c6750e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-27 04:32:18.853 [info] [127.0.0.1][720b2cab][ExtensionHostConnection] <1572684> Extension Host Process exited with code: 0, signal: null.
+2023-01-27 04:32:18.854 [info] Last EH closed, waiting before shutting down
+2023-01-27 04:32:37.008 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-01-27 04:32:37.008 [info] Cancelling previous shutdown timeout
+2023-01-27 04:32:37.150 [info] [127.0.0.1][bbd789a9][ManagementConnection] New connection established.
+2023-01-27 04:32:37.186 [info] [127.0.0.1][5d0f76fb][ExtensionHostConnection] New connection established.
+2023-01-27 04:32:37.190 [info] [127.0.0.1][5d0f76fb][ExtensionHostConnection] <1573094> Launched Extension Host Process.
+2023-01-27 04:37:37.010 [info] New EH opened, aborting shutdown
+2023-01-27 05:52:09.718 [info] [127.0.0.1][bbd789a9][ManagementConnection] The client has reconnected.
+2023-01-27 05:52:09.772 [info] [127.0.0.1][5d0f76fb][ExtensionHostConnection] The client has reconnected.
+2023-01-27 05:52:10.750 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateIcon (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:2715)
+    at Object.call (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-27 05:52:10.750 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-27 05:52:10.751 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-27 05:52:11.967 [error] CodeExpectedError: Could not find pty on pty host
+    at h.J (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:6395)
+    at h.updateTitle (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:27:2665)
+    at Object.call (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:17:5110)
+    at r.q (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:5390)
+    at r.p (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4881)
+    at /home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:15:4286
+    at n.invoke (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at C.deliver (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:2038)
+    at v.fire (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:11:1676)
+    at process.O (/home/ubuntu/.vscode-server/bin/97dec172d3256f8ca4bfb2143f3f76b503ca0534/out/vs/platform/terminal/node/ptyHostMain.js:9:20886)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-01-27 05:53:39.891 [info] [127.0.0.1][6252ab83][ManagementConnection] New connection established.
+2023-01-27 05:53:39.936 [info] [127.0.0.1][c27b5e8d][ExtensionHostConnection] New connection established.
+2023-01-27 05:53:39.942 [info] [127.0.0.1][c27b5e8d][ExtensionHostConnection] <1640460> Launched Extension Host Process.
+2023-01-27 05:58:28.273 [info] [127.0.0.1][8dade31d][ManagementConnection] New connection established.
+2023-01-27 05:58:28.283 [info] [127.0.0.1][b99ccd69][ExtensionHostConnection] New connection established.
+2023-01-27 05:58:28.287 [info] [127.0.0.1][b99ccd69][ExtensionHostConnection] <1644679> Launched Extension Host Process.
+2023-01-27 06:02:23.914 [info] [127.0.0.1][88f123a1][ManagementConnection] New connection established.
+2023-01-27 06:02:23.941 [info] [127.0.0.1][85989ad6][ExtensionHostConnection] New connection established.
+2023-01-27 06:02:23.950 [info] [127.0.0.1][85989ad6][ExtensionHostConnection] <1648378> Launched Extension Host Process.
+2023-01-27 07:51:33.697 [info] [127.0.0.1][c6a82217][ManagementConnection] New connection established.
+2023-01-27 07:51:33.705 [info] [127.0.0.1][5b866b35][ExtensionHostConnection] New connection established.
+2023-01-27 07:51:33.718 [info] [127.0.0.1][5b866b35][ExtensionHostConnection] <1714475> Launched Extension Host Process.
+2023-01-27 07:51:33.979 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ubuntu)
+2023-01-27 07:56:33.875 [info] [127.0.0.1][85989ad6][ExtensionHostConnection] <1648378> Extension Host Process exited with code: 0, signal: null.
+2023-01-27 07:56:33.909 [info] [127.0.0.1][5d0f76fb][ExtensionHostConnection] <1573094> Extension Host Process exited with code: 0, signal: null.
+2023-01-27 07:56:33.910 [info] [127.0.0.1][c27b5e8d][ExtensionHostConnection] <1640460> Extension Host Process exited with code: 0, signal: null.
+2023-01-27 07:56:33.932 [info] [127.0.0.1][b99ccd69][ExtensionHostConnection] <1644679> Extension Host Process exited with code: 0, signal: null.
+2023-01-27 08:18:06.881 [info] [127.0.0.1][c6a82217][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-01-27 08:18:06.897 [info] [127.0.0.1][5b866b35][ExtensionHostConnection] <1714475> Extension Host Process exited with code: 0, signal: null.
+2023-01-27 08:18:06.897 [info] Last EH closed, waiting before shutting down
+2023-01-27 08:23:06.898 [info] Last EH closed, shutting down

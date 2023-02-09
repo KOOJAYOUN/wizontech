@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+	name = KOOJAYOUN
+	email = kiwini99@naver.com
+# Please adapt and uncomment the following lines:
+#	name = ubuntu
+#	email = ubuntu@k8s-control.cluster.local

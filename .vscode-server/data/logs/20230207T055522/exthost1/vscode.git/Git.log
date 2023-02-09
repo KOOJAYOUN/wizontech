@@ -1,0 +1,55 @@
+2023-02-07 05:55:24.283 [info] 로그 수준: Info
+2023-02-07 05:55:24.283 [info] "git"에서 찾은 git 유효성을 검사하는 중
+2023-02-07 05:55:24.283 [info] "2.25.1"에서 git "git"을(를) 사용하는 중
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [1ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [1ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [11ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [7ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [1ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [1ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [2ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [14ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [4ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [3ms]
+2023-02-07 05:55:24.283 [info] > git rev-parse --git-dir --git-common-dir [44ms]
+2023-02-07 05:55:24.283 [info] Open repository: /home/ubuntu/kubespray
+2023-02-07 05:55:24.283 [info] > git config --get commit.template [3ms]
+2023-02-07 05:55:24.283 [info] > git rev-parse --show-toplevel [20ms]
+2023-02-07 05:55:24.283 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.288 [info] > git rev-parse --show-toplevel [6ms]
+2023-02-07 05:55:24.295 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-02-07 05:55:24.299 [info] Open repository: /home/ubuntu/nfs-subdir-external-provisioner
+2023-02-07 05:55:24.327 [info] > git config --get commit.template [18ms]
+2023-02-07 05:55:24.328 [info] > git rev-parse --show-toplevel [25ms]
+2023-02-07 05:55:24.328 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.336 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [48ms]
+2023-02-07 05:55:24.348 [info] > git rev-parse --show-toplevel [15ms]
+2023-02-07 05:55:24.348 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.366 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [18ms]
+2023-02-07 05:55:24.372 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-02-07 05:55:24.385 [info] > git rev-parse --show-toplevel [31ms]
+2023-02-07 05:55:24.385 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-02-07 05:55:24.388 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-02-07 05:55:24.443 [info] > git status -z -uall [102ms]
+2023-02-07 05:55:24.457 [info] > git config --get commit.template [5ms]
+2023-02-07 05:55:24.458 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2023-02-07 05:55:24.468 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-02-07 05:55:24.490 [info] > git status -z -uall [29ms]
+2023-02-07 05:55:24.531 [info] > git status -z -uall [153ms]
+2023-02-07 05:55:24.544 [info] > git config --get commit.template [4ms]
+2023-02-07 05:55:24.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-02-07 05:55:24.555 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2023-02-07 05:55:24.684 [info] > git status -z -uall [136ms]
+2023-02-07 05:55:24.904 [info] > git check-ignore -v -z --stdin [4ms]
+2023-02-07 05:55:24.905 [info] > git check-ignore -v -z --stdin [1ms]
