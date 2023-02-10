@@ -7,7 +7,7 @@ node {
          app = docker.build("kiwini99/powercat")
      }
      stage('Push image') {
-         docker.withRegistry('https://registry.hub.docker.com', 'wizontech-github') {
+         docker.withRegistry('https://registry.hub.docker.com', 'wizontech') {
              app.push("$BUILD_NUMBER")
          }
      }
