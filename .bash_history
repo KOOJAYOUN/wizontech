@@ -1253,3 +1253,55 @@ exit
 ssh ubuntu@10.11.7.31
 ssh ubuntu@10.7.11.31
 exit
+ls
+cd github/
+ls
+cd ..
+rm -rf github/
+echo "# wizontech" >> README.md
+git init
+git add .
+git merge main
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KOOJAYOUN/wizontech.git
+git push -u origin main
+cat ~/.ssh/id_rsa.pub 
+git remote add origin https://github.com/KOOJAYOUN/wizontech.gitgit remote add origin git@github.com:KOOJAYOUN/wizontech.git
+git remote add origin git@github.com:KOOJAYOUN/wizontech.git
+git remote set-url origingit@ github.com:KOOJAYOUN/wizontech.git
+git remote set-url origin git@github.com:KOOJAYOUN/wizontech.git
+git push -u origin main
+history
+cat ~/.ssh/id_rsa
+ssh-keygen -t rsa -b 4096 -m PEM
+cat ~/.ssh/authorized_keys 
+cat ~/.ssh/id_rsa_jenkins.pub >> ~/.ssh/authorized_keys 
+cat ~/.ssh/authorized_keys 
+cat ~/.ssh/id_rsa_jenkins
+ls
+vim ~/dockerfile/index.html 
+git add .
+git commit -m "0209"
+git push
+docker login
+vim ~/dockerfile/index.html 
+git add .
+git commit -m "0209-1"
+git push
+docker ps
+docker login
+vim ~/dockerfile/index.html 
+git add .
+git commit -m "0209"
+git push
+docker push kiwini99/login:4
+vim ~/dockerfile/index.html 
+git add .
+git commit -m "0209-3"
+git push
+vim ~/dockerfile/index.html 
+chmod 700 ~/.ssh
+chmod 644 ~/.ssh/authorized_keys
+cat ~/.ssh/id_rsa_jenkins.pub 

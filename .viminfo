@@ -15,11 +15,11 @@
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1675941943,,"x"
+|2,0,1676017806,,"x"
+:q!
+|2,0,1676017344,,"q!"
 :q
 |2,0,1675409870,,"q"
-:q!
-|2,0,1675054239,,"q!"
 :set nu
 |2,0,1675054142,,"set nu"
 :wq
@@ -52,19 +52,25 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"1	LINE	0
-	    - ip: 10.7.11.125
-|3,0,1,1,1,0,1674797020,"    - ip: 10.7.11.125"
+""1	LINE	0
+	574
+<ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDE8W9OJQyoSKFfC8iByf3t+h1OoAVcHEDRr67uCadRXBzv16h8jMg92xt/Hou/Lnk8SPGgARYRc4hSYcN521HCHaXJ9x7cKxaflfk0aFxQfx45iWTtPAulezdi51DG8+i0c34D0v3AbIpoUyFfbfn0AaIvTSmtRc5lQfuphC1T3xB7r3n5RRl9cSgX7NT7Ar5tBpchNj2EhgfMHBmCo9+kF4VLZ6sLBnIay73x47EgrouhMfSU2S+Zskz+tn6wW2q4PmhXKQt/4iUC1dF4/aPxpTLXwk2hGwEiDYdHP+Zq6lIQA0euPMhtb1+E9N14AJHnJvWZC9MRFmmUGUoamb8LzlXcJIrYIsV0g5Ubphn1wiffqQswnH+XH3YUxpRoXv+2bWMmDGoY00cvHELeIO10lG7iFS51vN+vCGeaWv+lBiAMbbvVtbePVYW/QAFRrslXuhVK7WQf0fZXwKawbRu6n+qTVSw+tSxa2o7frEurx2PKqKBu0sJ10QoM68fFDec= ubuntu@k8s-control
+|3,1,1,1,1,0,1676017805,>573
+|<"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDE8W9OJQyoSKFfC8iByf3t+h1OoAVcHEDRr67uCadRXBzv16h8jMg92xt/Hou/Lnk8SPGgARYRc4hSYcN521HCHaXJ9x7cKxaflfk0aFxQfx45iWTtPAulezdi51DG8+i0c34D0v3AbIpoUyFfbfn0AaIvTSmtRc5lQfuphC1T3xB7r3n5RRl9cSgX7NT7Ar5tBpchNj2EhgfMHBmCo9+kF4VLZ6sLBnIay73x47EgrouhMfSU2S+Zskz+tn6wW2q4PmhXKQt/4iUC1dF4/aPxpTLXwk2hGwEiDYdHP+Zq6lIQA0euPMhtb1+E9N14AJHnJvWZC9MRFmmUGUoamb8LzlXcJIrYIsV0g5Ubphn1wiffqQswnH+XH3YUxpRoXv+2bWMmDGoY00cvHELeIO10lG7iFS51vN+vCGeaWv+lBiAMbbvVtbePVYW/QAFRrslXuh
+|<VK7WQf0fZXwKawbRu6n+qTVSw+tSxa2o7frEurx2PKqKBu0sJ10QoM68fFDec= ubuntu@k8s-control"
 "2	LINE	0
-	    ingress:
-|3,0,2,1,1,0,1674797019,"    ingress:"
+	    - ip: 10.7.11.125
+|3,0,2,1,1,0,1674797020,"    - ip: 10.7.11.125"
 "3	LINE	0
-	  loadBalancer:
-|3,0,3,1,1,0,1674797019,"  loadBalancer:"
+	    ingress:
+|3,0,3,1,1,0,1674797019,"    ingress:"
 "4	LINE	0
-	status:
-|3,0,4,1,1,0,1674797019,"status:"
+	  loadBalancer:
+|3,0,4,1,1,0,1674797019,"  loadBalancer:"
 "5	LINE	0
+	status:
+|3,0,5,1,1,0,1674797019,"status:"
+"6	LINE	0
 	# ## Configure 'ip' variable to bind kubernetes services on a
 	# ## different ip than the default iface
 	# ## We should set etcd_member_name for etcd cluster. The node that is not a etcd member do not need to set the value, or can set the empty string value.
@@ -103,50 +109,132 @@
 	kube_control_plane
 	kube_node
 	calico_rr
-|3,0,5,1,38,0,1673931152,"# ## Configure 'ip' variable to bind kubernetes services on a","# ## different ip than the default iface","# ## We should set etcd_member_name for etcd cluster. The node that is not a etcd member do not need to set the value, or can set the empty string value.","[all]","# node1 ansible_host=95.54.0.12  # ip=10.3.0.1 etcd_member_name=etcd1","# node2 ansible_host=95.54.0.13  # ip=10.3.0.2 etcd_member_name=etcd2",>71
+|3,0,6,1,38,0,1673931152,"# ## Configure 'ip' variable to bind kubernetes services on a","# ## different ip than the default iface","# ## We should set etcd_member_name for etcd cluster. The node that is not a etcd member do not need to set the value, or can set the empty string value.","[all]","# node1 ansible_host=95.54.0.12  # ip=10.3.0.1 etcd_member_name=etcd1","# node2 ansible_host=95.54.0.13  # ip=10.3.0.2 etcd_member_name=etcd2",>71
 |<"# node3 ansible_host=95.54.0.14  # ip=10.3.0.3 etcd_member_name=etcd3","# node4 ansible_host=95.54.0.15  # ip=10.3.0.4 etcd_member_name=etcd4","# node5 ansible_host=95.54.0.16  # ip=10.3.0.5 etcd_member_name=etcd5","# node6 ansible_host=95.54.0.17  # ip=10.3.0.6 etcd_member_name=etcd6","","# ## configure a bastion host if your nodes are not directly reachable","# [bastion]","# bastion ansible_host=x.x.x.x ansible_user=some_user","","[kube_control_plane]","# node1","# node2","# node3",>2
 |<"","[etcd]","# node1","# node2","# node3","","[kube_node]","# node2","# node3","# node4","# node5","# node6","","[calico_rr]","","[k8s_cluster:children]","kube_control_plane","kube_node","calico_rr"
-""-	CHAR	0
+"-	CHAR	0
 	l
-|3,1,36,0,1,0,1675064929,"l"
+|3,0,36,0,1,0,1675064929,"l"
 
 # File marks:
-'0  47  65  ~/dockerfile/index.html
-|4,48,47,65,1675941943,"~/dockerfile/index.html"
-'1  47  65  ~/dockerfile/index.html
-|4,49,47,65,1675941773,"~/dockerfile/index.html"
-'2  47  65  ~/dockerfile/index.html
-|4,50,47,65,1675941504,"~/dockerfile/index.html"
+'0  1  0  ~/.ssh/authorized_keys
+|4,48,1,0,1676017806,"~/.ssh/authorized_keys"
+'1  8  0  ~/Jenkinsfile
+|4,49,8,0,1676017344,"~/Jenkinsfile"
+'2  55  0  ~/dockerfile/index.html
+|4,50,55,0,1675942640,"~/dockerfile/index.html"
 '3  47  65  ~/dockerfile/index.html
-|4,51,47,65,1675941504,"~/dockerfile/index.html"
-'4  47  64  ~/dockerfile/index.html
-|4,52,47,64,1675941330,"~/dockerfile/index.html"
-'5  47  64  ~/dockerfile/index.html
-|4,53,47,64,1675941330,"~/dockerfile/index.html"
-'6  47  64  ~/dockerfile/index.html
-|4,54,47,64,1675941330,"~/dockerfile/index.html"
-'7  47  64  ~/dockerfile/index.html
-|4,55,47,64,1675941330,"~/dockerfile/index.html"
-'8  1  15  ~/github/wizontech/README.md
-|4,56,1,15,1675836202,"~/github/wizontech/README.md"
-'9  1  0  ~/web/web-deployment.yaml
-|4,57,1,0,1675409891,"~/web/web-deployment.yaml"
+|4,51,47,65,1675941943,"~/dockerfile/index.html"
+'4  47  65  ~/dockerfile/index.html
+|4,52,47,65,1675941943,"~/dockerfile/index.html"
+'5  47  65  ~/dockerfile/index.html
+|4,53,47,65,1675941773,"~/dockerfile/index.html"
+'6  47  65  ~/dockerfile/index.html
+|4,54,47,65,1675941773,"~/dockerfile/index.html"
+'7  47  65  ~/dockerfile/index.html
+|4,55,47,65,1675941504,"~/dockerfile/index.html"
+'8  47  65  ~/dockerfile/index.html
+|4,56,47,65,1675941504,"~/dockerfile/index.html"
+'9  47  65  ~/dockerfile/index.html
+|4,57,47,65,1675941504,"~/dockerfile/index.html"
 
 # Jumplist (newest first):
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1676017806,"~/.ssh/authorized_keys"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
 |4,39,47,65,1675941943,"~/dockerfile/index.html"
 -'  1  0  ~/dockerfile/index.html
 |4,39,1,0,1675941936,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941936,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941936,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941936,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941773,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941773,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941773,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
 |4,39,47,65,1675941773,"~/dockerfile/index.html"
 -'  1  0  ~/dockerfile/index.html
 |4,39,1,0,1675941765,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941765,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941765,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941765,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941504,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941504,"~/dockerfile/index.html"
+-'  47  65  ~/dockerfile/index.html
+|4,39,47,65,1675941504,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
 |4,39,47,65,1675941504,"~/dockerfile/index.html"
 -'  1  0  ~/dockerfile/index.html
 |4,39,1,0,1675941494,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941494,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941494,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941494,"~/dockerfile/index.html"
 -'  47  64  ~/dockerfile/index.html
 |4,39,47,64,1675941330,"~/dockerfile/index.html"
+-'  47  64  ~/dockerfile/index.html
+|4,39,47,64,1675941330,"~/dockerfile/index.html"
+-'  47  64  ~/dockerfile/index.html
+|4,39,47,64,1675941330,"~/dockerfile/index.html"
+-'  47  64  ~/dockerfile/index.html
+|4,39,47,64,1675941330,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941314,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941314,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675941314,"~/dockerfile/index.html"
 -'  1  0  ~/dockerfile/index.html
 |4,39,1,0,1675941314,"~/dockerfile/index.html"
 -'  1  15  ~/github/wizontech/README.md
@@ -181,164 +269,95 @@
 |4,39,1,15,1675836202,"~/github/wizontech/README.md"
 -'  1  15  ~/github/wizontech/README.md
 |4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409891,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409878,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
--'  1  0  ~/web/web-deployment.yaml
-|4,39,1,0,1675409870,"~/web/web-deployment.yaml"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+-'  1  15  ~/github/wizontech/README.md
+|4,39,1,15,1675836202,"~/github/wizontech/README.md"
 
 # History of marks within files (newest to oldest):
 
+> ~/.ssh/authorized_keys
+	*	1676017806	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Jenkinsfile
+	*	1676017343	0
+	"	8	0
+	^	8	0
+	.	8	0
+	+	8	0
+
 > ~/dockerfile/index.html
-	*	1675941942	0
-	"	47	65
+	*	1675942013	0
+	"	55	0
 	^	47	66
 	.	47	65
 	+	53	6
