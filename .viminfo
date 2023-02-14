@@ -15,11 +15,13 @@
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1676017806,,"x"
+|2,0,1676359743,,"x"
 :q!
-|2,0,1676017344,,"q!"
+|2,0,1676354555,,"q!"
+:z
+|2,0,1676354551,,"z"
 :q
-|2,0,1675409870,,"q"
+|2,0,1676021217,,"q"
 :set nu
 |2,0,1675054142,,"set nu"
 :wq
@@ -117,34 +119,132 @@
 |3,0,36,0,1,0,1675064929,"l"
 
 # File marks:
-'0  1  0  ~/.ssh/authorized_keys
-|4,48,1,0,1676017806,"~/.ssh/authorized_keys"
-'1  8  0  ~/Jenkinsfile
-|4,49,8,0,1676017344,"~/Jenkinsfile"
-'2  55  0  ~/dockerfile/index.html
-|4,50,55,0,1675942640,"~/dockerfile/index.html"
-'3  47  65  ~/dockerfile/index.html
-|4,51,47,65,1675941943,"~/dockerfile/index.html"
-'4  47  65  ~/dockerfile/index.html
-|4,52,47,65,1675941943,"~/dockerfile/index.html"
-'5  47  65  ~/dockerfile/index.html
-|4,53,47,65,1675941773,"~/dockerfile/index.html"
-'6  47  65  ~/dockerfile/index.html
-|4,54,47,65,1675941773,"~/dockerfile/index.html"
+'0  47  64  ~/dockerfile/index.html
+|4,48,47,64,1676359743,"~/dockerfile/index.html"
+'1  43  0  /tmp/kubectl-edit-171383838.yaml
+|4,49,43,0,1676354555,"/tmp/kubectl-edit-171383838.yaml"
+'2  51  0  ~/.ssh/id_rsa
+|4,50,51,0,1676021217,"~/.ssh/id_rsa"
+'3  1  0  ~/.ssh/authorized_keys
+|4,51,1,0,1676017806,"~/.ssh/authorized_keys"
+'4  8  0  ~/Jenkinsfile
+|4,52,8,0,1676017344,"~/Jenkinsfile"
+'5  55  0  ~/dockerfile/index.html
+|4,53,55,0,1675942640,"~/dockerfile/index.html"
+'6  55  0  ~/dockerfile/index.html
+|4,54,55,0,1675942640,"~/dockerfile/index.html"
 '7  47  65  ~/dockerfile/index.html
-|4,55,47,65,1675941504,"~/dockerfile/index.html"
+|4,55,47,65,1675941943,"~/dockerfile/index.html"
 '8  47  65  ~/dockerfile/index.html
-|4,56,47,65,1675941504,"~/dockerfile/index.html"
+|4,56,47,65,1675941943,"~/dockerfile/index.html"
 '9  47  65  ~/dockerfile/index.html
-|4,57,47,65,1675941504,"~/dockerfile/index.html"
+|4,57,47,65,1675941943,"~/dockerfile/index.html"
 
 # Jumplist (newest first):
+-'  47  64  ~/dockerfile/index.html
+|4,39,47,64,1676359743,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1676359734,"~/dockerfile/index.html"
+-'  43  0  /tmp/kubectl-edit-171383838.yaml
+|4,39,43,0,1676354555,"/tmp/kubectl-edit-171383838.yaml"
+-'  43  0  /tmp/kubectl-edit-171383838.yaml
+|4,39,43,0,1676354555,"/tmp/kubectl-edit-171383838.yaml"
+-'  1  0  /tmp/kubectl-edit-171383838.yaml
+|4,39,1,0,1676353972,"/tmp/kubectl-edit-171383838.yaml"
+-'  1  0  /tmp/kubectl-edit-171383838.yaml
+|4,39,1,0,1676353972,"/tmp/kubectl-edit-171383838.yaml"
+-'  51  0  ~/.ssh/id_rsa
+|4,39,51,0,1676021217,"~/.ssh/id_rsa"
+-'  51  0  ~/.ssh/id_rsa
+|4,39,51,0,1676021217,"~/.ssh/id_rsa"
+-'  51  0  ~/.ssh/id_rsa
+|4,39,51,0,1676021217,"~/.ssh/id_rsa"
+-'  51  0  ~/.ssh/id_rsa
+|4,39,51,0,1676021217,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1676021128,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1676021128,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1676021128,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/id_rsa
+|4,39,1,0,1676021128,"~/.ssh/id_rsa"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1676017806,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1676017806,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1676017806,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1676017806,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1676017806,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1676017806,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1676017806,"~/.ssh/authorized_keys"
 -'  1  0  ~/.ssh/authorized_keys
 |4,39,1,0,1676017806,"~/.ssh/authorized_keys"
 -'  8  0  ~/Jenkinsfile
 |4,39,8,0,1676017344,"~/Jenkinsfile"
 -'  8  0  ~/Jenkinsfile
 |4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  8  0  ~/Jenkinsfile
+|4,39,8,0,1676017344,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
+-'  1  0  ~/Jenkinsfile
+|4,39,1,0,1676015646,"~/Jenkinsfile"
 -'  1  0  ~/Jenkinsfile
 |4,39,1,0,1676015646,"~/Jenkinsfile"
 -'  1  0  ~/Jenkinsfile
@@ -157,6 +257,56 @@
 |4,39,55,0,1675942640,"~/dockerfile/index.html"
 -'  55  0  ~/dockerfile/index.html
 |4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  55  0  ~/dockerfile/index.html
+|4,39,55,0,1675942640,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
+-'  1  0  ~/dockerfile/index.html
+|4,39,1,0,1675942010,"~/dockerfile/index.html"
 -'  1  0  ~/dockerfile/index.html
 |4,39,1,0,1675942010,"~/dockerfile/index.html"
 -'  1  0  ~/dockerfile/index.html
@@ -181,166 +331,34 @@
 |4,39,47,65,1675941943,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
 |4,39,47,65,1675941943,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941936,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941936,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941936,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941936,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
-|4,39,47,65,1675941773,"~/dockerfile/index.html"
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
-|4,39,47,65,1675941773,"~/dockerfile/index.html"
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
-|4,39,47,65,1675941773,"~/dockerfile/index.html"
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
-|4,39,47,65,1675941773,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941765,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941765,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941765,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941765,"~/dockerfile/index.html"
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
 -'  47  65  ~/dockerfile/index.html
-|4,39,47,65,1675941504,"~/dockerfile/index.html"
--'  47  65  ~/dockerfile/index.html
-|4,39,47,65,1675941504,"~/dockerfile/index.html"
--'  47  65  ~/dockerfile/index.html
-|4,39,47,65,1675941504,"~/dockerfile/index.html"
--'  47  65  ~/dockerfile/index.html
-|4,39,47,65,1675941504,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941494,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941494,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941494,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941494,"~/dockerfile/index.html"
--'  47  64  ~/dockerfile/index.html
-|4,39,47,64,1675941330,"~/dockerfile/index.html"
--'  47  64  ~/dockerfile/index.html
-|4,39,47,64,1675941330,"~/dockerfile/index.html"
--'  47  64  ~/dockerfile/index.html
-|4,39,47,64,1675941330,"~/dockerfile/index.html"
--'  47  64  ~/dockerfile/index.html
-|4,39,47,64,1675941330,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941314,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941314,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941314,"~/dockerfile/index.html"
--'  1  0  ~/dockerfile/index.html
-|4,39,1,0,1675941314,"~/dockerfile/index.html"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
--'  1  15  ~/github/wizontech/README.md
-|4,39,1,15,1675836202,"~/github/wizontech/README.md"
+|4,39,47,65,1675941943,"~/dockerfile/index.html"
 
 # History of marks within files (newest to oldest):
+
+> ~/dockerfile/index.html
+	*	1676359742	0
+	"	47	64
+	^	47	65
+	.	47	64
+	+	53	6
+	+	47	64
+
+> /tmp/kubectl-edit-171383838.yaml
+	*	1676354554	0
+	"	43	0
+
+> ~/.ssh/id_rsa
+	*	1676021144	0
+	"	51	0
 
 > ~/.ssh/authorized_keys
 	*	1676017806	0
@@ -354,14 +372,6 @@
 	^	8	0
 	.	8	0
 	+	8	0
-
-> ~/dockerfile/index.html
-	*	1675942013	0
-	"	55	0
-	^	47	66
-	.	47	65
-	+	53	6
-	+	47	65
 
 > ~/github/wizontech/README.md
 	*	1675836202	0

@@ -1305,3 +1305,141 @@ vim ~/dockerfile/index.html
 chmod 700 ~/.ssh
 chmod 644 ~/.ssh/authorized_keys
 cat ~/.ssh/id_rsa_jenkins.pub 
+cd ls
+ls
+git pull
+vim Jenkinsfile
+docker login
+cd ~/.ssh/
+ls
+rm id_rsa
+rm id_rsa.pub
+mv id_rsa
+mv id_rsa_jenkins id_rsa
+mv id_rsa_jenkins.pub id_rsa.pub
+vim authorized_keys 
+sudo systemctl restart ssh
+sudo systemctl status ssh
+ssh-copy-id ubuntu@localhost
+ssh-copy-id ubuntu@10.7.11.22
+ssh-copy-id ubuntu@10.7.11.23
+ssh-copy-id ubuntu@10.7.11.24
+cd ~
+git add .
+git commit -m "2"
+git push
+cat ~/.ssh/id_rsa.pub 
+git push
+sudo vim /etc/ssh/sshd_config
+sudo systemctl restart sshd
+sudo systemctl status sshd
+sudo vim /etc/ssh/sshd_config
+sudo systemctl restart sshd
+sudo systemctl status sshd
+ls ~/.ssh/
+ls
+cd ~/.ssh/
+ls
+cat authorized_keys 
+cat id_rsa.pub 
+cat id_rsa
+sudo vim /etc/ssh/sshd_config
+sudo systemctl restart sshd
+sudo systemctl status sshd
+cd ~/dockerfile/
+pwd
+cd ~
+ssh-keygen -t rsa -b 4096 -m PEM
+cat ~/.ssh/id_rsa_jenkins.pub >> ~/.ssh/authorized_keys
+cd ~/.ssh/
+ls
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+cat id_rsa
+ssh-copy-id ubuntu@localhost
+ssh-copy-id ubuntu@10.7.11.22
+ssh-copy-id ubuntu@10.7.11.23
+ssh-copy-id ubuntu@10.7.11.24
+sudo -i
+cat id_rsa.pub
+cd ~
+cat /etc/hosts
+cat id_rsa
+cat ~/.ssh/id_rsa
+ls
+useradd -aG docker jenkins
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins.service 
+sudo systemctl status jenkins.service 
+grep docker /etc/group
+ls
+ls -al .ssh/
+vim .ssh/id_rsa
+java --version
+docker ps
+docker images
+docker image prune
+docker images
+docker image prune -a
+docker images
+docker image prune -a
+sudo apt-get remove jenkins
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+sudo systemctl restart jenkins
+sudo systemctl status jenkins
+sudo yum remove jenkins
+sudo apt-get remove jenkins
+rm /etc/sysconfig/jenkins.rpmsave
+ls -al /etc/sysconfig/
+ls -al /var/lib/jenkins
+rm -rf /var/lib/jenkins
+sudo systemctl status jenkins
+hepl apt-get 
+help apt-get 
+man -k apt-get
+info apt-get
+sudo apt-get clean jenkins
+sudo systemctl status jenkins
+sudo apt-get remove --purge jenkins
+sudo systemctl status jenkins
+ls -al /etc/apt/sources.list.d/
+sudo rm /etc/apt/sources.list.d/jenkins.list 
+sudo rm /etc/apt/sources.list.d/jenkins.list.save
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+sudo find / -name 'jenkins*'
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins
+jenkins --version
+sudo systemctl status jenkins.service
+cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+sudo usermod -aG docker jenkins
+sudo systemctl enable jenkins && systemctl restart jenkins
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_rsa
+ls
+ls -al
+cd dockerfile/
+pwd
+kubectl get -n webserver deployments.apps web-deployment 
+ls -al
+cd ..
+ls
+cd dockerfile/
+cd ..
+ls -al
+cat /etc/group
+ls -al /etc/sudoers.d
+cat /etc/sudoers.d/ubuntu 
+sudo vim /etc/sudoers.d/ubuntu 
+docker login
+docker info | grep Username
+su - jenkins
+sudo -i jenkins
+grep docker /etc/group\
+grep docker /etc/group
+grep jenkins /etc/group
+exit
