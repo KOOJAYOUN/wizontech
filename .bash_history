@@ -1443,3 +1443,45 @@ grep docker /etc/group\
 grep docker /etc/group
 grep jenkins /etc/group
 exit
+docker login -u kiwini99
+winpty docker login
+docker login -u kiwini99 -p
+docker logout
+docker login -u kiwini99
+docker images
+docker image prune -a
+winpty docker ps
+docker images
+kubectl get deployments.apps -n webserver web-deployment
+kubectl ediv deployments.apps -n webserver web-deployment
+kubectl edit deployments.apps -n webserver web-deployment
+grep ubunt /etc/group
+sudo usermod -aG docker wizontech
+docker login -u kiwini99 --password-stdin
+docker login
+sudo systemctl restart docker.s
+sudo systemctl restart docker
+sudo systemctl status docker
+docker login
+docker image prune -a
+sudo vi sudo
+sudo visudo
+docker images
+vim ~/dockerfile/index.html 
+git add .
+git commit -m "0214"
+git push
+git push origin main
+cat ~/.ssh/id_rsa.pub 
+git push origin main
+vim ~/dockerfile/index.html 
+git add .
+git commit -m "0214-1"
+git push origin main
+git push
+git remote -v
+cat ~/.ssh/id_rsa.pub 
+git push origin main
+kubectl edit -n webserver deployments.apps web-deployment 
+kubectl get ingress -n ingress-nginx 
+kubectl get all -n ingress-nginx 
