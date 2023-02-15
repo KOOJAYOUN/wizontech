@@ -1485,3 +1485,59 @@ git push origin main
 kubectl edit -n webserver deployments.apps web-deployment 
 kubectl get ingress -n ingress-nginx 
 kubectl get all -n ingress-nginx 
+kubectl get all -n webserver 
+kubectl describe -n webserver pods web-deployment-7989799cbb-dtzvd 
+kubectl get all -n webserver 
+kubectl delete pods all -n webserver 
+kubectl delete pods --all -n webserver 
+kubectl get all -n webserver 
+kubectl get all -n webserver --watch
+kubectl get all -n webserver -w
+kubectl get all -n webserver
+kubectl describe pods -n webserver web-deployment-7989799cbb-p7k2h 
+docker images
+cd web/
+ls
+kubectl delete -f web-deployment.yaml 
+kubectl get all -n webserver
+kubectl create -f web-deployment.yaml 
+kubectl get all -n webserver
+ls
+cd ..
+cd ~/dockerfile/
+ls
+vim index.html 
+cd ..
+git add .
+git commit -m "0215"
+git push
+kubectl get all -n webserver 
+kubectl get all -n webserver -watch
+kubectl get --help
+kubectl get pods --help
+kubectl get pods -w
+kubectl get pods -w -n webse
+kubectl get all -n webserver
+kubectl describe -n webserver replicasets.apps web-deployment-6d5c75d9dc 
+kubectl get all -n webserver
+kubectl patch -n webserver deployments.apps web-deployment -p '{"spec": {"template": {"spec": {"containers": [{"name": "web", "image": "kiwini99/login0209:45}]}}}}'
+kubectl patch -n webserver deployments.apps web-deployment -p '{"spec": {"template": {"spec": {"containers": [{"name": "web", "image": "kiwini99/login0209:45"}]}}}}'
+kubectl patch -n webserver deployments.apps web-deployment -p '{"spec": {"template": {"spec": {"containers": [{"name": "web", "image": "kiwini99/login0209:44"}]}}}}'
+kubectl get all -n webserver
+docker images
+kubectl get all -n webserver
+kubectl describe -n webserver replicasets.apps web-deployment-65cd64fd96 
+kubectl describe pods -n webserver pod/web-deployment-65cd64fd96-hldr7
+kubectl describe pods -n webserver web-deployment-65cd64fd96-hldr7
+kubectl edit -n webserver deployments.apps web-deployment
+kubectl delete -f ~/web/web-deployment.yaml 
+kubectl create -f ~/web/web-deployment.yaml 
+vim ~/dockerfile/index.html 
+git add .
+git commit -n "0215-2
+"
+git commit -n "0215-2"
+git commit -m "0215-2"
+git push
+kubectl get all -n webserver 
+kubectl get pods -n webserver -w

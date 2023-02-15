@@ -86,3 +86,5 @@ Extension host agent listening on 41587
 [05:08:42] Adding language packs from the extension ms-ceintl.vscode-language-pack-ko
 [05:08:42] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ko-1.75.2023020109
 [05:08:42] Extension installed successfully: ms-ceintl.vscode-language-pack-ko
+New EH opened, aborting shutdown
+[05:13:37] New EH opened, aborting shutdown
