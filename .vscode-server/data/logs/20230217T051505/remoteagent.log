@@ -1,0 +1,10 @@
+2023-02-17 05:15:05.715 [info] 
+
+
+
+
+2023-02-17 05:15:05.751 [info] Extension host agent started.
+2023-02-17 05:15:05.861 [info] Deleted from disk ms-ceintl.vscode-language-pack-ko /home/ubuntu/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.75.2023020809
+2023-02-17 05:15:05.952 [info] [127.0.0.1][975e25c3][ManagementConnection] New connection established.
+2023-02-17 05:15:05.954 [info] [127.0.0.1][22051b5e][ExtensionHostConnection] New connection established.
+2023-02-17 05:15:06.218 [info] [127.0.0.1][22051b5e][ExtensionHostConnection] <976580> Launched Extension Host Process.

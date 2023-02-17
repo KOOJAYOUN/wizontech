@@ -17,3 +17,11 @@
 2023-02-15 05:08:42.491 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ko-1.75.2023020109
 2023-02-15 05:08:42.494 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ko
 2023-02-15 05:13:37.191 [info] New EH opened, aborting shutdown
+2023-02-15 07:08:34.170 [info] [127.0.0.1][818a861e][ManagementConnection] New connection established.
+2023-02-15 07:08:34.196 [info] [127.0.0.1][4f4fa692][ExtensionHostConnection] New connection established.
+2023-02-15 07:08:34.203 [info] [127.0.0.1][4f4fa692][ExtensionHostConnection] <3253819> Launched Extension Host Process.
+2023-02-15 08:25:09.007 [info] [127.0.0.1][818a861e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-15 08:25:09.035 [info] [127.0.0.1][4f4fa692][ExtensionHostConnection] <3253819> Extension Host Process exited with code: 0, signal: null.
+2023-02-15 10:16:01.839 [info] [127.0.0.1][ef86bfd9][ExtensionHostConnection] <3145902> Extension Host Process exited with code: 0, signal: null.
+2023-02-15 10:16:01.839 [info] Last EH closed, waiting before shutting down
+2023-02-15 10:21:01.840 [info] Last EH closed, shutting down

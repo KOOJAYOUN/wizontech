@@ -1541,3 +1541,46 @@ git commit -m "0215-2"
 git push
 kubectl get all -n webserver 
 kubectl get pods -n webserver -w
+kubectl get all -n webserver 
+mkidr db
+mkdir db
+ls
+cd ~/db/
+kubectl create -f mydb-cm-mysql.yaml 
+kubectl describe configmaps mydb-config 
+kubectl create -f mydb-svc-read.yaml -f mydb-svc-write.yaml 
+kubectl get service -l app=mydb
+kubectl create -f mydb-sts-mysql.yaml 
+kubectl get statefulsets.apps 
+kubectl get statefulsets.apps,pods
+kubectl run mysql-client -it --image=ghcr.io/c1t1d0s7/network-multitool --rm bash
+mysql -u root -p
+sudo apt-get install mysql-client
+mysql -u root -p
+mysql -u root -h mydb
+kubectl delete -f ./
+ls
+kubectl get all
+kubectl delete -f .
+kubectl create -f ./
+kubectl create ns databese
+kubectl create -f ./
+kubectl create ns database
+kubectl delete ns databese
+kubectl create -f ./
+kubectl get all -n database 
+kubectl get pv,pvc -n database 
+cd ..
+git add .
+git commit -m "0215-2"
+git push
+kubectl run mysql-client -it --image=ghcr.io/c1t1d0s7/network-multitool --rm bash
+kubectl run mysql-client -it --image=ghcr.io/c1t1d0s7/network-multitool --rm bash -n database 
+mysql -u root -h mydb
+mysql -u root -h mydb -n database
+mysql -u root -h mydb-0.mydb
+mysql -u root -h mydb-0.mydb.database
+mysql -u root -h mydb.database
+kubectl get all
+ls
+exit

@@ -1,0 +1,23 @@
+2023-02-16 06:47:19.161 [info] 
+
+
+
+
+2023-02-16 06:47:19.199 [info] Extension host agent started.
+2023-02-16 06:47:19.323 [info] [127.0.0.1][78f743ac][ManagementConnection] New connection established.
+2023-02-16 06:47:19.335 [info] Deleted from disk ms-ceintl.vscode-language-pack-ko /home/ubuntu/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.75.2023020109
+2023-02-16 06:47:19.342 [info] [127.0.0.1][01280ea5][ExtensionHostConnection] New connection established.
+2023-02-16 06:47:19.682 [info] [127.0.0.1][01280ea5][ExtensionHostConnection] <43754> Launched Extension Host Process.
+2023-02-16 06:47:24.095 [info] Getting Manifest... ms-ceintl.vscode-language-pack-ko
+2023-02-16 06:47:24.279 [info] Installing extension: ms-ceintl.vscode-language-pack-ko
+2023-02-16 06:47:26.176 [info] Extension signature verification: ms-ceintl.vscode-language-pack-ko. Verification status: Verified.
+2023-02-16 06:47:26.299 [info] Extracted extension to /home/ubuntu/.vscode-server/extensions/.c3abc8e4-08ff-425b-94f5-7eb2e7f735d9: ms-ceintl.vscode-language-pack-ko
+2023-02-16 06:47:26.301 [info] Renamed to /home/ubuntu/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.75.2023021509
+2023-02-16 06:47:26.302 [info] Extracting completed. ms-ceintl.vscode-language-pack-ko
+2023-02-16 06:47:26.307 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-ko
+2023-02-16 06:47:26.338 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-ko-1.75.2023020809
+2023-02-16 06:47:26.341 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-ko
+2023-02-16 06:52:19.201 [info] New EH opened, aborting shutdown
+2023-02-16 09:52:32.745 [info] [127.0.0.1][01280ea5][ExtensionHostConnection] <43754> Extension Host Process exited with code: 0, signal: null.
+2023-02-16 09:52:32.746 [info] Last EH closed, waiting before shutting down
+2023-02-16 09:57:32.747 [info] Last EH closed, shutting down
