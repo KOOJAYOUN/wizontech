@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: pybo
+  name: pybo-web-deployment
+  labels:
+    app: pybo
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pybo
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  template:
+    metadata:
+      labels:
+        app: pybo
+    spec:
+      containers:
+      - name: pybo
+        image: wwm5241/powercat:15
+        env:
+        - name: WORDPRESS_DB_HOST
+          value: "wordpress-mydb-0.wordpress-mydb.wordpress"
+        - name: WORDPRESS_DB_USER
+          value: "wordpress"
+        - name: WORDPRESS_DB_PASSWORD
+          value: "qwer12#$"
+        - name: WORDPRESS_DB_NAME
+          value: "wordpress"
+        ports:
+        - containerPort: 80

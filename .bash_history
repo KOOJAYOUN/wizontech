@@ -1584,3 +1584,286 @@ mysql -u root -h mydb.database
 kubectl get all
 ls
 exit
+vim ~/dockerfile/index.html 
+git add .
+git commit -m "0217"
+git push
+mkdir wordpress
+cd wordpress/
+ls
+cd db/
+kubectl delete -f .
+cd db/
+kubectl create -f .
+kubectl create ns wordpress
+kubectl create -f .
+kubectl delete -f .
+kubectl create -f .
+kubectl delete -f .
+kubectl create -f .
+kubectl delete -f .
+kubectl create -f mydb-cm-mysql.yaml 
+kubectl create -f mydb-svc-read.yaml -f mydb-svc-write.yaml 
+kubectl create -f mydb-sts-mysql.yaml 
+kubectl delete -f .
+kubectl delete -f ,.
+kubectl delete -f .
+kubectl get all -n database 
+kubectl create -f mydb-cm-mysql.yaml 
+kubectl create -f mydb-svc-read.yaml -f mydb-svc-write.yaml 
+kubectl create -f mydb-sts-mysql.yaml 
+kubectl get all -n database 
+kubectl delete -f mydb-sts-mysql.yaml 
+kubectl create -f mydb-sts-mysql.yaml 
+kubectl get all -n database 
+kubectl delete -f .
+kubectl create -f wordpress-mydb-cm-mysql.yaml 
+kubectl create -f wordpress-mydb-svc-read.yaml -f wordpress-mydb-svc-write.yaml 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl describe pods -n wordpress wordpress-mydb-1 
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl get pods -w -n wordpress 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl get pods -w -n wordpress 
+kubectl get all -n wordpress 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get pods -w -n wordpress 
+kubectl logs -n wordpress wordpress-mydb-1
+kubectl describe pods -n wordpress wordpress-mydb-1
+kubectl get pods -n w
+kubectl get pods -n wordpress 
+kubectl describe pods -n wordpress wordpress-mydb-1
+kubectl get pods -n wordpress 
+kubectl describe pods -n wordpress wordpress-mydb-1
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n database 
+kubectl get pv,pvc
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl get pods -n wordpress -w
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+cd ..
+kubectl create -f .
+kubectldescrobe -n wordpress 
+kubectl describe -n wordpress pods wordpress-mydb-0 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl delete -f ./wordpress-mydb-sts-mysql.yaml 
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl create -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-deployment.yaml 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+kubectl get ingress -n wordpress 
+kubectl delete -f wordpress-ingress.yaml 
+kubectl create -f wordpress-ingress.yaml 
+kubectl get ingress -n wordpress 
+kubectl create -f wordpress-mydb-cm-mysql.yaml 
+kubectl create -f wordpress-mydb-pvc.yaml 
+kubectl create -f wordpress-mydb-svc-read.yaml -f wordpress-mydb-svc-write.yaml 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get pv,pvc -n wordpress 
+kubectl get all -n wordpress 
+kubectl get pods,statefulsets -n wordpress 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml -n database 
+kubectl get all -n database 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml
+kubectl create -f wordpress-mydb-sts-mysql.yaml
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml
+kubectl create -f wordpress-mydb-sts-mysql.yaml
+kubectl get all -n wordpress 
+kubectl get pods -n wordpress 
+kubectl get all -n wordpress 
+kubectl delete -f .
+kubectl get pv,pvc
+kubectl get all -n wordpress 
+kubectl describe -n wordpress pods wordpress-web-deployment-5d89d7b87d-7plbr 
+cd ..
+kubectl delete -f wordpress-deployment.yaml 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-deployment.yaml 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-deployment.yaml 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+kubectl describe pods -n wordpress wordpress-web-deployment-647bb7d9c5-2wtg2 
+kubectl delete -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-deployment.yaml 
+cd db/
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+cd ..
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-deployment.yaml 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+mysql -u root -h wordpress-mydb.wordpress
+kubectl delete -f wordpress-deployment.yaml 
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl create -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl create -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+mysql -u root -h wordpress-mydb.wordpress
+cd ~/wordpress/
+kubectl delete -f wordpress-de
+kubectl delete -f wordpress-deployment.yaml 
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl create -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+mysql -u root -h wordpress-mydb.wordpress
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl delete -f wordpress-deployment.yaml 
+kubectl create -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+mysql -u root -h wordpress-mydb.wordpress
+mysql -u wordpress -p -h wordpress-mydb.wordpress
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get pv,pvc
+kubectl get all -n database 
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7,pvc-767ff679-553e-4bd8-a3f5-9cf4a0a2716f
+kubectl get pv
+kubectl delete pv pvc-767ff679-553e-4bd8-a3f5-9cf4a0a2716f
+kubectl get pv
+kubectl delete -f pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7,pvc-767ff679-553e-4bd8-a3f5-9cf4a0a2716f
+kubectl get pv
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7,pvc-767ff679-553e-4bd8-a3f5-9cf4a0a2716f
+kubectl get pv
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7,pvc-767ff679-553e-4bd8-a3f5-9cf4a0a2716f
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7 -f
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7 --f
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7 --force
+kubectl get pv
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7,pvc-767ff679-553e-4bd8-a3f5-9cf4a0a2716f --force
+kubectl delete pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7 pvc-767ff679-553e-4bd8-a3f5-9cf4a0a2716f --force
+kubectl get pv
+kubectl get pv,pvc
+kubectl create -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl create -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+mysql -u root -h wordpress-mydb.wordpress
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+kubectl get pv,pvc
+kubectl get pv
+kubectl get all -n wordpress
+cd wordpress/
+kubectl delete -f wordpress-deployment.yaml 
+cd db/
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress
+kubectl delete -f .
+kubectl get all -n wordpress
+cd ..
+kubectl delete -f .
+kubectl get pv,pvc
+kubectl describe pvc data-mydb-0 
+kubectl edit pv wordpress-data-wordpress-mydb-0
+kubectl edit pv pvc-640f3c2c-04e8-4ec0-b645-903fe08721b7 
+kubectl edit pv pvc-767ff679-553e-4bd8-a3f5-9cf4a0a2716f
+kubectl get pv
+kubectl delete pv pvc-05713ae4-4bf6-4c18-971e-1597adcd5495 pvc-b84ac2bb-60b7-4532-ba3b-47e1bcc97026
+kubectl get pv
+kubectl edit pv pvc-05713ae4-4bf6-4c18-971e-1597adcd5495
+kubectl edit pv pvc-b84ac2bb-60b7-4532-ba3b-47e1bcc97026
+kubectl get pv,pvc
+kubectl get all
+cd db/
+kubectl create wordpress-mydb-cm-mysql.yaml 
+kubectl create -f wordpress-mydb-cm-mysql.yaml 
+kubectl create -f wordpress-mydb-svc-read.yaml -f wordpress-mydb-svc-write.yaml 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl describe posd -n wordpress wordpress-mydb-0
+kubectl describe pods -n wordpress wordpress-mydb-0
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n ow
+kubectl get all -n wordpress 
+kubectl getl all
+kubectl get all
+kubectl get all -n database 
+kubectl get pv,pvc
+kubectl get all -n wordpress 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl describe pods -n wordpress wordpress-mydb-0 
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl create -f wordpress-mydb-pvc.yaml 
+kubectl get pvc
+kubectl get pvc,pvc
+kubectl 
+kubectl delete -f wordpress-mydb-pvc.yaml 
+kubectl get pvc,pvc
+kubectl get pvc,pv
+kubectl delete pvc data-mydb-0 data-mydb-1
+kubectl get pvc,pv
+kubectl delete pv pvc-478605e6-3ef2-4f70-9d01-0ae02a160f50 pvc-5710ba40-22b5-4b5d-a868-920da11089f0 pvc-5710ba40-22b5-4b5d-a868-920da11089f0
+kubetl get pv,pvc
+kubectl get pv,pvc
+kubectl describe pv pvc-8db450a0-c93f-495e-a317-35265591f743
+kubectl delete pv pvc-8db450a0-c93f-495e-a317-35265591f743
+kubectl get all -n all
+kubectl get all -A
+kubectl get pv,pvc
+kubectl edit pv pvc-478605e6-3ef2-4f70-9d01-0ae02a160f50
+kubectl edit pv pvc-5710ba40-22b5-4b5d-a868-920da11089f0 
+kubectl edit pv pvc-8db450a0-c93f-495e-a317-35265591f743 
+kubectl get pv
+kubectl get all -n wordpress 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl describe statefulsets.apps -n wordpress wordpress-mydb 
+kubectl 
+kubectl delete -f wordpress-mydb-sts-mysql.yaml 
+kubectl create -f wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+cd ..
+kubectl create -f wordpress-pvc.yaml 
+kubectl get pvc
+kubectl get pvc -n wordpress 
+kubectl delete -n wordpress pvc data-mydb-0
+kubectl delete -n wordpress pvc wordpress-data-pvc-wordpress-mydb-0
+kubectl delete -n wordpress pvc wordpress-data-pvc-wordpress-mydb-1
+kubectl delete -n wordpress pvc wordpress-data-wordpress-mydb-1
+kubectl delete -n wordpress pvc wordpress-data-wordpress-mydb--
+kubectl delete -n wordpress pvc wordpress-data-wordpress-mydb-0
+kubectl create -f wordpress-service.yaml 
+kubectl create -f wordpress-deployment.yaml 
+kubectl create -f wordpress-ingress.yaml 
+kubectl get all -n wordpress 
+mysql -u root -h wordpress-mydb.wordpress
+mysql -u root -h wordpress-mydb-1.wordpress
+mysql -u root -h wordpress-mydb-01.wordpress
+kubectl get all -n wordpress 
+mysql -u root -h wordpress-mydb-1.mydb.wordpress
+mysql -u root -h wordoress-mydb-1.wordpress-mydb.wordpress
+mysql -u root -h wordpress-mydb-1.wordpress-mydb.wordpress

@@ -1,0 +1,10 @@
+[Trace 05:44:11.515] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/ubuntu/pybo/PowerCat/ReadME.md
+[Trace 05:44:11.516] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/ubuntu/pybo/PowerCat/ReadME.md
+[Trace 05:44:11.518] Server: connection.languages.diagnostics.on: file:///home/ubuntu/pybo/PowerCat/ReadME.md
+[Trace 05:44:11.521] Server: connection.languages.diagnostics.on: file:///home/ubuntu/pybo/PowerCat/ReadME.md
+[Trace 05:44:11.545] DocumentSymbolProvider: provideDocumentSymbols — file:///home/ubuntu/pybo/PowerCat/ReadME.md 1
+[Debug 05:44:11.545] LinkProvider: compute - file:///home/ubuntu/pybo/PowerCat/ReadME.md
+[Debug 05:44:11.662] TableOfContentsProvider: create - file:///home/ubuntu/pybo/PowerCat/ReadME.md
+[Debug 05:44:11.729] MdFoldingProvider: provideFoldingRanges — file:///home/ubuntu/pybo/PowerCat/ReadME.md 1
+[Trace 05:44:11.898] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/ubuntu/pybo/PowerCat/ReadME.md
+[Trace 05:44:11.898] VsCodeClientWorkspace: deleteDocument: file:///home/ubuntu/pybo/PowerCat/ReadME.md

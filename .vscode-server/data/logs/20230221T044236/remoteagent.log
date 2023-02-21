@@ -1,0 +1,24 @@
+2023-02-21 04:42:36.986 [info] 
+
+
+
+
+2023-02-21 04:42:37.011 [info] Extension host agent started.
+2023-02-21 04:42:37.104 [info] [127.0.0.1][72528e8c][ExtensionHostConnection] New connection established.
+2023-02-21 04:42:37.105 [info] [127.0.0.1][236c04e8][ManagementConnection] New connection established.
+2023-02-21 04:42:37.427 [info] [127.0.0.1][72528e8c][ExtensionHostConnection] <913937> Launched Extension Host Process.
+2023-02-21 04:42:40.820 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:6839)
+    at S.updateIcon (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:2680)
+    at Object.call (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at r.s (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at r.q (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at invoke (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:2033)
+    at c.fire (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:1671)
+    at process.F (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:9:20881)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-02-21 04:47:37.011 [info] New EH opened, aborting shutdown
