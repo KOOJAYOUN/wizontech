@@ -1,0 +1,11 @@
+2023-02-22 04:40:51.846 [info] 
+
+
+
+
+2023-02-22 04:40:51.875 [info] Extension host agent started.
+2023-02-22 04:40:51.957 [info] [127.0.0.1][de46370e][ManagementConnection] New connection established.
+2023-02-22 04:40:51.970 [info] [127.0.0.1][5615f7c9][ExtensionHostConnection] New connection established.
+2023-02-22 04:40:52.324 [info] [127.0.0.1][5615f7c9][ExtensionHostConnection] <1941206> Launched Extension Host Process.
+2023-02-22 04:40:57.969 [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ubuntu)
+2023-02-22 04:45:51.876 [info] New EH opened, aborting shutdown

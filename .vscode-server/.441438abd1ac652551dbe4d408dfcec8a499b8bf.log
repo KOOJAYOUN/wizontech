@@ -5,18 +5,18 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:35323 (IPv4)
-Extension host agent listening on 35323
+Server bound to 127.0.0.1:43739 (IPv4)
+Extension host agent listening on 43739
 
-[04:42:36] 
-
-
+[04:40:51] 
 
 
-[04:42:37] Extension host agent started.
-[04:42:37] [127.0.0.1][72528e8c][ExtensionHostConnection] New connection established.
-[04:42:37] [127.0.0.1][236c04e8][ManagementConnection] New connection established.
-[04:42:37] [127.0.0.1][72528e8c][ExtensionHostConnection] <913937> Launched Extension Host Process.
+
+
+[04:40:51] Extension host agent started.
+[04:40:51] [127.0.0.1][de46370e][ManagementConnection] New connection established.
+[04:40:51] [127.0.0.1][5615f7c9][ExtensionHostConnection] New connection established.
+[04:40:52] [127.0.0.1][5615f7c9][ExtensionHostConnection] <1941206> Launched Extension Host Process.
 [IPC Library: Pty Host]  WARN Shell integration cannot be enabled for executable "/bin/sh" and args [
   '-c',
   'wget --version > /dev/null\n' +
@@ -77,34 +77,6 @@ Extension host agent listening on 35323
     'fi\n' +
     'exit 0'
 ]
-rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
-stack trace: CodeExpectedError: Could not find pty on pty host
-    at S.L (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:6839)
-    at S.updateIcon (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:2680)
-    at Object.call (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
-    at r.s (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
-    at r.q (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
-    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
-    at invoke (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
-    at E.deliver (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:2033)
-    at c.fire (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:1671)
-    at process.F (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:9:20881)
-    at process.emit (node:events:526:28)
-    at emit (node:internal/child_process:938:14)
-    at processTicksAndRejections (node:internal/process/task_queues:84:21)
-[04:42:40] Error [CodeExpectedError]: Could not find pty on pty host
-    at S.L (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:6839)
-    at S.updateIcon (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:2680)
-    at Object.call (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
-    at r.s (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
-    at r.q (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
-    at /home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
-    at invoke (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
-    at E.deliver (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:2033)
-    at c.fire (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:1671)
-    at process.F (/home/ubuntu/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:9:20881)
-    at process.emit (node:events:526:28)
-    at emit (node:internal/child_process:938:14)
-    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+[04:40:57] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /home/ubuntu)
 New EH opened, aborting shutdown
-[04:47:37] New EH opened, aborting shutdown
+[04:45:51] New EH opened, aborting shutdown

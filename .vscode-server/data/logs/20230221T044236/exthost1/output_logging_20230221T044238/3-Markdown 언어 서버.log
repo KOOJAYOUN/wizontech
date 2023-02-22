@@ -8,3 +8,4 @@
 [Debug 05:44:11.729] MdFoldingProvider: provideFoldingRanges — file:///home/ubuntu/pybo/PowerCat/ReadME.md 1
 [Trace 05:44:11.898] VsCodeClientWorkspace: TextDocument.onDidClose: file:///home/ubuntu/pybo/PowerCat/ReadME.md
 [Trace 05:44:11.898] VsCodeClientWorkspace: deleteDocument: file:///home/ubuntu/pybo/PowerCat/ReadME.md
+[Trace 07:12:19.809] VsCodeClientWorkspace: onDidChangeWatchedFiles: 1: file:///home/ubuntu/sparta/sparta/README.md

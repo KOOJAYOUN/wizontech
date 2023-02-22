@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: sparta
+  name: sparta-mydb-config
+  labels:
+    app: sparta-mydb
+data:
+  master.cnf: |
+    [mysqld]
+    log-bin
+  slave.cnf: |
+    [mysqld]
+    super-read-only

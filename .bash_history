@@ -1,44 +1,3 @@
-exit
-sudo -i
-vim ~/.vimrc
-sudo apt install -y nfs-kernel-server
-ssh ubuntu@10.7.11.22
-ssh ubuntu@10.7.11.23
-ssh ubuntu@10.7.11.24
-git clone https://github.com/kubernetes-sigs/nfs-subdir-external-provisioner.git
-cd ~/nfs-subdir-external-provisioner/deploy
-kubectl create -f rbac.yaml
-vim deployment.yaml
-sudo -i 
-kubectl create -f deployment.yaml
-kubectl create -f class.yaml
-kubectl get storageclasses.storage.k8s.io
-kubectl patch storageclasses.storage.k8s.io nfs-client -p '{"metadata": {"annotations":{"storageclass.kubernetes.io/is-default-class":"true"}}}'
-kubectl describe storageclasses.storage.k8s.io nfs-client
-kubectl get storageclasses.storage.k8s.io
-kubectl get all -n kube-system
-kubectl top nodes
-cd ~
-curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
-chmod 700 get_helm.sh
-./get_helm.sh
-sudo apt update
-sudo apt install openjdk-11-jre
-java -version
-curl -fsSL <https://pkg.jenkins.io/debian-stable/jenkins.io.key> | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
-sudo apt-get update
-sudo apt-get install jenkins
-jenkins --version
-sudo systemctl status jenkins.service
-kubectl get all
-kubectl create namespace monitoring
-helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
-helm repo update
-helm ls -n monitoring
-helm install prometheus prometheus-community/kube-prometheus-stack
-helm install prometheus prometheus-community/kube-prometheus-stack -n monitoring
 kubectl get svc -n monitoring
 kubectl patch service -n monitoring prometheus-kube-prometheus-prometheus -p '{"spec": {"type": "LoadBalancer"}}'
 kubectl get services -n monitoring prometheus-kube-prometheus-prometheus 
@@ -1867,3 +1826,175 @@ kubectl get all -n wordpress
 mysql -u root -h wordpress-mydb-1.mydb.wordpress
 mysql -u root -h wordoress-mydb-1.wordpress-mydb.wordpress
 mysql -u root -h wordpress-mydb-1.wordpress-mydb.wordpress
+kubectl get all
+kubectl get all -n wordpress 
+cd wordpress/
+kubectl delete -f wordpress-deployment.yaml 
+kubectl delete -f wordpress-pvc.yaml 
+mysql -u root -h wordpress-mydb-0.wordpress
+mysql -u root -h wordpress-mydb-0.wordpress-mydb.wordpress
+kubectl get pv
+kubectl get pvc -n wordpress 
+kubectl create -f wordpress-pvc.yaml 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all
+kubectl get all -n wordpress 
+kubectl delete -f wordpress-pvc.yaml 
+kubectl delete -f wordpress-deployment.yaml.yaml 
+kubectl delete -f wordpress-deployment.yaml
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get pvc -n wordpress 
+kubectl delete pvc -n wordpress wordpress-data-0220-wordpress-mydb-0
+kubectl delete pvc -n wordpress wordpress-data-0220-wordpress-mydb-1
+kubectl get pvc -n wordpress 
+kubectl get pv
+kubectl create ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl create -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl get all -n wordpress 
+kubectl create -f wordpress-pvc.yaml 
+kubectl create -f wordpress-deployment.yaml 
+kubectl get all -n wordpress 
+mysql -u root -h wordpress-mydb.wordpress
+kubectl delete -f wordpress-deployment.yaml 
+kubectl delete -f wordpress-pvc.yaml 
+kubetl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl delete -f ./db/wordpress-mydb-sts-mysql.yaml 
+kubectl delete -f ./db/.
+kubectl delete -f .
+kubectl get all -n wordpress 
+kubectl get pvc -n wordpress 
+kubectl delete pvc -n wordpress wordpress-data-0220-wordpress-mydb-0 
+kubectl delete pvc -n wordpress wordpress-data-0220-wordpress-mydb-1
+kubectl get pvc
+kubectl get pv
+cd ~/pybo/
+kubectl create -f ./db/pybo-mydb-cm-mysql.yaml 
+kubectl create ns pybo
+kubectl create -f ./db/pybo-mydb-cm-mysql.yaml 
+kubectl create -f ./db/pybo-mydb-svc-read.yaml -f ./db/pybo-mydb-svc-write.yaml 
+kubectl get all -n pybo 
+kubectl create -f ./db/pybo-mydb-sts-mysql.yaml 
+kubectl get all -n pybo 
+git clone git@github.com:KOOJAYOUN/PowerCat.git
+cd PowerCat/
+ls
+mysql -u root -h pybo-db-0.pybo-mydb.pybo
+mysql -u root -h pybo-mydb.pybo
+mysql -u root -h pybo-mydb-0.pybo-mydb.pybo
+ls
+docker built -t kiwini99/wizontech:test .
+docker build -t kiwini99/wizontech:test .
+docker push kiwini99/wizontech:test
+cd ..
+kubectl create -f pybo-ingress.yaml 
+kubectl create -f pybo-service.yaml 
+kubectl create -f pybo-deployment.yaml 
+kubectl get all -n pybo 
+mysql -u root -h pybo-mydb.pybo
+mysql -u root -h pybo-mydb-0.pybo-mydb.pybo
+mysql -u root -h pybo-mydb-1.pybo-mydb.pybo
+mysql -u pybo -h pybo-mydb-1.pybo-mydb.pybo
+mysql -u pybo -h pybo-mydb-1.pybo-mydb.pybo -p
+cd ..
+git add .
+cd ~/pybo/PowerCat/
+ls
+ls -al
+rm -rf .git/
+cd ..
+ls -al
+git rm --cached PowerCat/
+cd PowerCat/
+git rm --cached ../PowerCat
+git rm --cached ~/pybo/PowerCa
+git rm --cached .
+git rm --cached ~/pybo/PowerCat
+git rm --cached ~/pybo/PowerCat -f
+cd ~
+git push
+git add .
+git commit -m "0221"
+git push
+mkdir ~/sparta
+cd ~/sparta/
+ls
+git clone git@github.com:KOOJAYOUN/sparta.git
+ls
+ls -al
+cd sparta/
+ls
+ls -al
+rm -rf .git/
+git rm --cached ../sparta/
+git rm --cached ../sparta
+ls
+cd projects/
+ls
+cd 04.bucket/
+cd ~
+ls
+kubectl get all -n pybo 
+cd pybo/
+;s
+ls
+kubectl delete -f ./
+kubectl delete -f ./db/.
+kubectl get all -n pybo 
+kubectl get pvc -n pybo 
+kubectl delete pvc -n pybo pybo-data-pybo-mydb-
+kubectl delete pvc -n pybo pybo-data-pybo-mydb-0
+kubectl delete pvc -n pybo pybo-data-pybo-mydb-1
+kubectl get pv
+cd ~/sparta/db/
+ls
+kubectl create -f sparta-mydb-cm-mysql.yaml 
+kubectl create ns sparta
+kubectl create -f sparta-mydb-cm-mysql.yaml 
+kubectl create -f sparta-mydb-svc-read.yaml -f sparta-mydb-svc-write.yaml 
+kubectl create -f sparta-mydb-sts-mysql.yaml 
+kubectl get all -n sparta 
+mysql -u root -h sparta-mydb.sparta
+mysql -u root -h sparta-mydb-0.sparta-mydb.sparta
+ls
+docker build -t kiwini99/wizontech:bucket
+docker build -t kiwini99/wizontech:bucket .
+kubectl get all -n sparta 
+kubectl create -f sparta-ingress.yaml 
+kubectl create -f sparta-service.yaml 
+kubectl get all -n sparta 
+kubectl delete -f sparta-service.yaml 
+kubectl create -f sparta-service.yaml 
+kubectl get all -n sparta 
+kubectl create -f sparta-deployment.yaml 
+kubectl get all -n sparta 
+kubectl delete -f sparta-deployment.yaml 
+docker push kiwini99/wizontech:bucket
+kubectl create -f sparta-deployment.yaml 
+kubectl get all -n sparta 
+kubectl describe pods -n sparta sparta-web-deployment-5668fbc4d7-2sznr 
+kubectl get all -n sparta 
+kubectl describe pods -n sparta sparta-web-deployment-5668fbc4d7-2sznr 
+kubectl get all -n sparta 
+kubectl describe pods -n sparta sparta-web-deployment-5668fbc4d7-2sznr 
+kubectl get all -n sparta 
+kubectl describe pods -n sparta sparta-web-deployment-5668fbc4d7-2sznr 
+kubectl get all -n sparta 
+ls
+kubectl get all -n sparta 
+kubectl delete -f sparta-deployment.yaml 
+docker build -t kiwini99/wizontech:bucket1 .
+docker push kiwini99/wizontech:bucket1
+kubectl create -f sparta-deployment.yaml 
+kubectl get all -n sparta 
+docker build -t kiwini99/wizontech:bucket2 .
+docker push kiwini99/wizontech:bucket2
+kubectl get all -n sparta 
+kubectl delete -f sparta-deployment.yaml 
+kubectl get all -n sparta 
+kubectl create -f sparta-deployment.yaml 
+kubectl get all -n sparta 
+kubectl delete -f sparta-deployment.yaml 
+docker build -t kiwini99/wizontech:bucket3 .
+docker push kiwini99/wizontech:bucket3
+kubectl create -f sparta-deployment.yaml 
+kubectl get all -n sparta 
